@@ -5,4 +5,7 @@ select * from v$sql; --Displays SQL statements that are cached in the shared poo
 select * from v$tablespace; --Provides information about tablespaces in the database.
 select * from v$process; --Displays details about processes running in the database.
 select * from gv$parameter; --Lists current initialization parameters and their values.
+set linesize 50;
+set pagesize 50;
+column name format A20;
 
