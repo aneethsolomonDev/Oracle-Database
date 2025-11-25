@@ -8,4 +8,5 @@ select * from gv$parameter; --Lists current initialization parameters and their 
 set linesize 50;
 set pagesize 50;
 column name format A20;
+--Committing the Changes
 
